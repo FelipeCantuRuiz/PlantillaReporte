@@ -96,8 +96,9 @@ header address {
     font-size: 75%;
     font-style: normal;
     line-height: 1.25;
-    margin-top: 100px;
-    position: relative;
+    position: absolute;
+    top: 100px;
+    left: 20px;
 }
 
 header span,
