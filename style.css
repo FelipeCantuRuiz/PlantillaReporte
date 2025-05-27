@@ -96,7 +96,7 @@ header address {
     font-size: 75%;
     font-style: normal;
     line-height: 1.25;
-    margin: 0 0 1em 1em;
+    margin-bottom: 20px;
     position: relative;
 }
 
