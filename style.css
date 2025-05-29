@@ -31,20 +31,6 @@ img.hover {
 span[contenteditable] {
     display: inline-block;
 }
-.contenedor {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; /* Alinea los hijos al fondo */
-  gap: 8px; /* Espacio entre párrafos (opcional) */
-  padding-bottom: 20px; /* Margen inferior (opcional) */
-}
-
-.contenedor p {
-  /* ¡Elimina position, bottom y left! */
-  margin: 0; /* Elimina márgenes por defecto */
-  /* Otros estilos (color, fuente, etc) */
-}
 
 /* heading */
 h1 {
