@@ -31,6 +31,18 @@ img.hover {
 span[contenteditable] {
     display: inline-block;
 }
+.contenedor {
+  height: 100vh; /* O el alto que desees */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* O flex-end para la parte inferior */
+}
+.contenedor p {
+  position: absolute;
+  bottom: 0; /* O el margen que necesites */
+  left: 0; /* O el margen que necesites */
+  /* Otros estilos para el texto */
+}
 
 /* heading */
 h1 {
