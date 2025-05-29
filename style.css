@@ -53,7 +53,7 @@ th, td {
     border: 1px solid #000; /* Añadido un borde sólido para todas las celdas */
     padding: 0.5em;
     position: relative;
-    text-align: left;
+    text-align: right;
 }
 
 th {
@@ -156,12 +156,12 @@ article address {
 /* table meta & balance */
 table.meta,
 table.balance {
-    float: left;
+    float: right;
     width: 36%;
 }
 
 table.meta:after,
-table.balance:after {
+table.balance:right {
     content: "";
     display: table;
     clear: both;
